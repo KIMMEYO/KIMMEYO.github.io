@@ -1,0 +1,75 @@
+/* Comment */
+
+h1 {
+  color: #eeff33;
+  background-color: rgba(255, 190, 51, 0.5);
+}
+
+p {
+  font-size: 30px;
+  font-family: "impact";
+  font-weight: bold;
+  font-style: italic;
+}
+
+#redbackground {
+  background-color: red;
+}
+
+.boxmodel {
+  border: blue 5px double;
+  padding: 30px 60px 90px 120px;
+  margin: 50px;
+}
+
+.align {
+  text-align: center;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.link,
+.link:visited {
+  text-decoration: none;
+  color: black;
+  transition: all 1s;
+}
+
+.link:hover {
+  color: orange;
+  font-size: 20px;
+}
+.margin {
+  margin: 50px;
+}
+
+.button {
+  font-family: sans-serif;
+  border: 3px solid blue;
+  border-radius: 10px;
+  color: blue;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+
+.button:hover {
+  background-color: blue;
+  color: white;
+}

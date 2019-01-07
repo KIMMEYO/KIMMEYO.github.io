@@ -1,0 +1,21 @@
+* {
+  font-family: "Helvectica Neue", sans-serif;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 1000px;
+  margin: 0 auto;
+  height: 44px;
+}
+
+.nav-item {
+}
+
+.nav-link {
+}
+
+.nav-link:hover {
+}
