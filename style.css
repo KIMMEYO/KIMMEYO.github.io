@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Verdana", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  height: 100px;
+}
+
+.nav-heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  transition: all 0.7s;
+}
+
+.nav-heading:hover {
+  font-size: 35px;
+  color: blue;
+}
+
+.wrapper {
+  display: grid;
+  height: 100%;
+  grid-template-rows: 1fr;
+  grid-template-columns: (8, 1fr);
+}
+
+.main {
+  grid-column: 2 / 8;
+  grid-row: 1 / 2;
+  background-image: url(https://www.bloemfonteincourant.co.za/wp-content/uploads/2018/07/digital-coding-785.jpg);
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+
+.nav-header {
+  color: white;
+  font-size: 25px;
+  font-family: "Papyrus";
+}
+
+.side {
+  background-color: orange;
+  grid-column: 1/2;
+  grid-row: 1/3;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-link {
+  text-decoration: none;
+  color: white;
+}
+
+.side-link:hover {
+  font-size: 25px;
+}
